@@ -12,6 +12,7 @@
     rarityFill: document.getElementById('rarityFill'),
     rarityNumber: document.getElementById('rarityNumber'),
     units: document.getElementById('specUnits'),
+    value: document.getElementById('specValue'),
     hp: document.getElementById('specHp'),
     top: document.getElementById('specTop'),
     engine: document.getElementById('specEngine'),
@@ -35,6 +36,7 @@
     els.rarityFill.style.width = (car.rarity * 10) + '%';
     els.rarityNumber.textContent = car.rarity + '/10';
     els.units.textContent = car.units;
+    els.value.textContent = car.value;
     els.hp.textContent = car.hp;
     els.top.textContent = car.top;
     els.engine.textContent = car.engine;

@@ -33,4 +33,4 @@ Then turn on Pages the same way as step 3-4 above.
 
 ## A note on accuracy
 
-Several of these cars were identified from a moving vehicle through a car window, so a handful are Claude's best guess rather than a certain ID — those slides are marked with a "Best Guess" badge in the corner. Production numbers, horsepower, and top speed figures are typical values for that model/year and may vary by trim or specific engine option.
+Several of these cars were identified from a moving vehicle through a car window, so a handful are Claude's best guess rather than a certain ID — those slides are marked with a "Best Guess" badge in the corner. Production numbers, horsepower, top speed, and estimated values are typical figures for that model/year in good driver condition, and can vary a lot by trim, options, and condition — the "Approx. Value" figure is a rough ballpark, not an appraisal.
