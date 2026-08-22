@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadside Spottings</title>
+<meta name="description" content="A road-trip car spotting log — every car Andy photographed, identified and broken down.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-eyebrow">A Roadtrip Car-Spotting Log</div>
+  <h1>Roadside Spottings</h1>
+  <p class="tagline">78 cars, trucks, and one very lost Ferrari — spotted from the back seat.</p>
+</header>
+
+<main>
+  <div class="slide-shell">
+    <button class="nav-btn" id="prevBtn" aria-label="Previous car">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+
+    <div class="slide-card" id="slideCard">
+      <div class="slide-photo-wrap">
+        <span class="slide-counter" id="slideCounter">1 / 78</span>
+        <span class="guess-badge" id="guessBadge" hidden>Best Guess</span>
+        <img id="slidePhoto" src="" alt="">
+      </div>
+      <div class="slide-info">
+        <div class="car-year" id="carYear"></div>
+        <h2 class="car-title" id="carTitle"></h2>
+        <p class="car-blurb" id="carBlurb"></p>
+
+        <div class="spec-grid">
+          <div class="spec full">
+            <div class="spec-label">Rarity</div>
+            <div class="rarity-row">
+              <div class="rarity-track"><div class="rarity-fill" id="rarityFill"></div></div>
+              <div class="rarity-number" id="rarityNumber">–/10</div>
+            </div>
+          </div>
+          <div class="spec full">
+            <div class="spec-label">How Many Made</div>
+            <div class="spec-value" id="specUnits"></div>
+          </div>
+          <div class="spec">
+            <div class="spec-label">Horsepower</div>
+            <div class="spec-value" id="specHp"></div>
+          </div>
+          <div class="spec">
+            <div class="spec-label">Top Speed</div>
+            <div class="spec-value" id="specTop"></div>
+          </div>
+          <div class="spec full">
+            <div class="spec-label">Engine</div>
+            <div class="spec-value" id="specEngine"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav-btn" id="nextBtn" aria-label="Next car">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+</main>
+
+<footer>
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="mobile-controls">
+    <button class="nav-btn" id="prevBtnMobile" aria-label="Previous car">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="nav-btn" id="nextBtnMobile" aria-label="Next car">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+  <div class="swipe-hint" id="hintText">Swipe, or use the <kbd>&lt;</kbd> <kbd>&gt;</kbd> arrow keys to browse</div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
